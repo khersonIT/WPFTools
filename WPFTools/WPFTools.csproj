@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Commands\AutoDisabledCommand.cs" />
     <Compile Include="Commands\SimpleCommand.cs" />
+    <Compile Include="Performance\DelayedTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
