@@ -13,10 +13,10 @@ namespace WPFTools.Commands
     {
         #region Fields
 
-        private Action _execute;
-        private Predicate<object> _canExecute;
+        protected Action _execute;
+        protected Predicate<object> _canExecute;
 
-        private static Predicate<object> _defaultCanexecute = new Predicate<object>((_) => true);
+        protected static Predicate<object> _defaultCanexecute = new Predicate<object>((_) => true);
 
         #endregion
 
